@@ -88,6 +88,8 @@ A GitHub Actions workflow builds the AppImage automatically. Run it from the **A
 - Website: https://lav1n.is-a.dev/L1ve-OS/
 - More projects: https://lav1n.is-a.dev
 
-## 📄 License
-
-Add your license here.
+## 📄 Testers - THIS WOULDN'T BE HERE WITHOUT YOU GUYS :D
+TYSM 
+@anki201566
+@7256
+@boinger42
