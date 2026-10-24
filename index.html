@@ -69,7 +69,6 @@ footer a{color:var(--tx);text-decoration:underline;text-underline-offset:3px}
 <div class="wrap">
   <nav>
     <a class="brand" href="#top"><svg class="lgo" width="34" height="34" role="img" aria-label="L1VE OS logo"><use href="#l1"/></svg>L1VE OS</a>
-
   </nav>
 
   <header class="hero" id="top">
@@ -77,22 +76,43 @@ footer a{color:var(--tx);text-decoration:underline;text-underline-offset:3px}
     <h1>A whole desktop,<br><span>zero setup.</span></h1>
     <p>L1VE OS is a free, install-free desktop with draggable icons, a file manager, a taskbar and an app store.</p>
     <div class="cta">
-      <a class="btn p" href="https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1ve.OS.exe" download>⬇ Download for Windows</a>
+      <a id="download-btn" class="btn p" href="https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1ve.OS.exe" download>⬇ Download for Windows</a>
       <a class="btn" href="https://github.com/Lavin0503/L1ve-OS/releases" target="_blank" rel="noopener">All releases</a>
     </div>
-    <div class="note">v1.0.0 · Free · Windows .exe</div>
+    <div id="release-note" class="note">v2.0.0 · Free · Windows .exe</div>
   </header>
 
   <footer>
     L1VE OS made by Lav1n · <a href="https://github.com/Lavin0503/L1ve-OS/releases" target="_blank" rel="noopener">Releases</a> ·
     <a href="https://lav1n.is-a.dev/L1ve-OS/">lav1n.is-a.dev/L1ve-OS</a>
-  <section class="more">
-    <a class="btn p" href="https://lav1n.is-a.dev" target="_blank" rel="noopener">See More Projects →</a>
-  </section>
-
+    <section class="more">
+      <a class="btn p" href="https://lav1n.is-a.dev" target="_blank" rel="noopener">See More Projects →</a>
+    </section>
   </footer>
 </div>
 
+<script>
+(function() {
+  const winURL = "https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1ve.OS.exe";
+  const macURL = "https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1ve_OS_MacOS.dmg";
+  
+  const btn = document.getElementById("download-btn");
+  const note = document.getElementById("release-note");
+  
+  const ua = navigator.userAgent || "";
+  const platform = navigator.userAgentData?.platform || navigator.platform || "";
+  const isMac = /Mac/i.test(platform) || (/Macintosh|Mac OS X/i.test(ua) && !/iPhone|iPad|iPod/i.test(ua));
 
+  if (isMac) {
+    btn.href = macURL;
+    btn.textContent = "⬇ Download for macOS";
+    note.textContent = "v2.0.0 · Free · macOS .dmg";
+  } else {
+    btn.href = winURL;
+    btn.textContent = "⬇ Download for Windows";
+    note.textContent = "v2.0.0 · Free · Windows .exe";
+  }
+})();
+</script>
 </body>
 </html>
