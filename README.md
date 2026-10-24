@@ -20,7 +20,7 @@
 
 **The `.exe` is not stored in the repository files. To get it, go to the [Releases page](https://github.com/Lavin0503/L1ve-OS/releases) and download `L1veOS.exe` from the latest release.**
 
-Direct link to v1.0.0: [L1veOS.exe](https://github.com/Lavin0503/L1ve-OS/releases/download/v1.0.0/L1veOS.exe)
+Direct link to v2.0.0: [L1veOS.exe](https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1veOS.exe)
 
 1. Open the [**Releases**](https://github.com/Lavin0503/L1ve-OS/releases) tab on the right side of this page.
 2. Under the latest version, open **Assets**.
