@@ -24,7 +24,7 @@ Binaries are provided directly via GitHub Releases. Download the build for your 
 | :--- | :--- | :--- |
 | **Windows** | [Download L1ve.OS.exe](https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1ve.OS.exe) | `.exe` |
 | **macOS** | [Download L1ve_OS_MacOS.dmg](https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1ve_OS_MacOS.dmg) | `.dmg` |
-| **Linux** | [Download the AppImage]([https://github.com/Lavin0503/L1ve-OS/releases/latest](https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1VE-OS-LINUX.AppImage)) | `.AppImage` |
+| **Linux** | [Download L1VE-OS-LINUX.AppImage](https://github.com/Lavin0503/L1ve-OS/releases/download/v2.0.0/L1VE-OS-LINUX.AppImage) | `.AppImage` |
 
 You can also view all assets on the [Releases Page](https://github.com/Lavin0503/L1ve-OS/releases). No install is needed if you just want to try it: the [website](https://lav1n.is-a.dev/L1ve-OS/) runs the same OS in your browser.
 
